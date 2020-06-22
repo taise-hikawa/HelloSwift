@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+            outputLabel.text = "Hello Swift!"
     }
+    @IBOutlet weak var outputLabel: UILabel!
 
 
 }
